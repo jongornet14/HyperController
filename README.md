@@ -7,7 +7,7 @@
 
 HyperController is an online hyperparameter optimization algorithm (an area within automated machine learning) for Reinforcement Learning (RL). It configures hyperparameter configurations dynamically while the neural network is still training, enabling efficient and robust neural network performance.
 
-This repository is code for the research paper published on [arXiv](https://arxiv.org/abs/2504.19382).
+This repository is code for the research paper published on [arXiv](https://arxiv.org/abs/2504.19382), coauthored by Jonathan Gornet, Yiannis Kantaros, and Bruno Sinopoli. 
 
 ## Overview
 

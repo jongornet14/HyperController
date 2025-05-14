@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Gornet
+    given-names: Jonathan
+    orcid: https://orcid.org/0009-0007-4096-8875
+title: "HyperController: A Hyperparameter Controller for Fast and Stable Training of Reinforcement Learning Neural Networks"
+version: 1.0.0
+date-released: 2024-14-05
+url: https://arxiv.org/abs/2504.19382
+repository-code: https://github.com/jongornet14/HyperController
+license: MIT

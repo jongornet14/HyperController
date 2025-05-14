@@ -116,6 +116,19 @@ If you use this work, please cite the following:
 }
 ```
 
+## Acknowledgments
+
+Parts of the testing framework were adapted from the open-source [Ray Tune](https://docs.ray.io/en/latest/tune/index.html). Citation below:
+
+```bibtex
+@article{liaw2018tune,
+    title = {Tune: A Research Platform for Distributed Model Selection and Training},
+    author = {Liaw, Richard and Liang, Eric and Nishihara, Robert and Moritz, Philipp and Gonzalez, Joseph E and Stoica, Ion},
+    journal = {arXiv preprint arXiv:1807.05118},
+    year = {2018}
+}
+```
+
 ### Compared Methods
 
 Please also cite the following baseline methods when reproducing or comparing:

@@ -5,9 +5,13 @@
 [![Python](https://img.shields.io/badge/Python-3.11.11-blue.svg)](https://www.python.org/downloads/release/python-31111/)
 [![Conda](https://img.shields.io/badge/environment-conda-green.svg)](https://docs.conda.io/)
 
+[![Scope](https://img.shields.io/badge/Scope-RL%20%7C%20LLM%20%7C%20Generative%20AI-informational)](#)
+
 HyperController is an online hyperparameter optimization algorithm (an area within automated machine learning) for Reinforcement Learning (RL). It configures hyperparameter configurations dynamically while the neural network is still training, enabling efficient and robust neural network performance.
 
 This repository is code for the research paper published on [arXiv](https://arxiv.org/abs/2504.19382), coauthored by Jonathan Gornet, Yiannis Kantaros, and Bruno Sinopoli. 
+
+**Keywords**: AutoML, hyperparameter tuning, reinforcement learning, LLMs, generative AI, control theory, bandits, PyTorch
 
 ## Overview
 
@@ -186,4 +190,30 @@ Please also cite the following baseline methods when reproducing or comparing:
     year = {2012},
     publisher = {JMLR. org}
 }
+```
+
+## Additional Applications
+
+This repository also contains examples for using HyperController for hyperparameter tuning while training Deep Convolutional Generative Adversarial Networks (DCGANs) and fine-tuning Large-Language Models (LLMs) via Low Rank Adaptation (LoRA). 
+
+### DCGANs Example
+
+For using HyperController with DCGANs, using the following command:
+
+```bash
+python3 genAI_tests.py --seed 0 \
+            --method 'HyperController' \
+            --folder 'results' \
+            --home_dir='/home/jonathangornet/Documents/' \
+            --data_dir='{image_dataset_dir}/celebA/' \
+            --dataset='celebA'
+```
+where ```{image_dataset_dir}``` is the directory location of the ```celebA``` dataset. 
+
+### LLMs Example
+
+For using HyperController while fine-tuning a LLMs via LoRA, using the following command:
+
+```bash
+python3 tuning.py --method 'HyperController'
 ```

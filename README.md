@@ -29,7 +29,7 @@ A Conda environment file is included for easy setup.
 
 ```bash
 conda env create -f environment.yml
-conda activate automl
+conda activate hypercontroller
 ```
 
 > **Note**: Conda is required for setting up the environment at this time.
